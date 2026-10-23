@@ -1,0 +1,19 @@
+{
+  "name": "ytnblm",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "bin": { "ytnblm": "index.ts" },
+  "scripts": {
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "playwright": "^1.64.1"
+  }
+}
